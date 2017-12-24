@@ -9,3 +9,10 @@ int main()
      cin>>a>>b;
      cout<<" Sum = "<<a+b;
 }
+
+
+Output:-
+Enter two values :5 4
+Sum = 9
+
+
