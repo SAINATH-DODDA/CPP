@@ -1,0 +1,24 @@
+Program to find the factorial of given number.
+
+Input:-
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,fact=1,i;
+    cout<<"Enter a number:";
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+      fact= fact*i;
+    }
+    cout<<"Factorial of "<<n<<" is:"<<fact;
+    return 0;
+
+}
+
+Output:-
+Enter a number:
+5
+Factorial of 5 is:120
