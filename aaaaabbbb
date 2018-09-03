@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch[100];
+	cin.getline(ch,100);
+	int i=0,count=1;
+	
+	while(ch[i]!='\0')
+	{
+		if(ch[i]==ch[i+1])
+		{
+			count++;
+		}
+		else
+		{
+			cout<<ch[i]<<count;
+			count=1;
+		}
+		i++;	
+		
+	}
+}
